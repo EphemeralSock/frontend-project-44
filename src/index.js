@@ -13,18 +13,17 @@ const gameLogic = (gameTask, output) => {
         const answArr = output();
 
         console.log(`Question: ${answArr[0]}`);
-
         const answerUser = readlineSync.question('Your answer: ');
 
         const correctAnswer = answArr[1];
 
         if (answerUser === correctAnswer) {
-        console.log('Correct!');
+          console.log('Correct!');
         } else {
-        console.log(`"${answerUser}" is wrong answer ;(. Correct answer was "${correctAnswer}". \nLet's try again, ${userName}!`);
+          console.log(`"${answerUser}" is wrong answer ;(. Correct answer was "${correctAnswer}". \nLet's try again, ${userName}!`);
         return;
         }
-  }
+      }
 
   console.log(`Congratulations, ${userName}!`);
 };
