@@ -1,4 +1,4 @@
-import gameLogic from  '../index.js'
+import runGame from  '../index.js'
 
 
 
@@ -35,7 +35,7 @@ const getRandomNumber = (num1, num2 = 0) => {
 
 const brainProgression = () => {
     const gameTask = 'What is the result of the expression?'
-    gameLogic(gameTask, progGame);
+    runGame(gameTask, progGame);
 };
 
 export default brainProgression;
