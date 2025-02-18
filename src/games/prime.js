@@ -1,4 +1,4 @@
-import gameLogic from  '../index.js'
+import runGame from  '../index.js'
 
 const getRandomNumber = (range) => Math.floor(Math.random() * range);
 
@@ -26,7 +26,7 @@ const primeAnswer = () => {
 
 const brainPrime = () => {
     const gameTask = 'Answer "yes" if given number is prime. Otherwise answer "no".'
-    gameLogic(gameTask, primeAnswer);
+    runGame(gameTask, primeAnswer);
 };
 
 
