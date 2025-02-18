@@ -1,4 +1,4 @@
-import gameLogic from  '../index.js'
+import runGame from  '../index.js'
 
 const getRandomNumber = (range) => Math.floor(Math.random() * range);
 
