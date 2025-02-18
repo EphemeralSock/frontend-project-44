@@ -33,7 +33,7 @@ const calcQuestion = () => {
 
 const brainCalc = () => {
     const gameTask = 'What is the result of the expression?'
-    gameLogic(gameTask, calcQuestion);
+    runGame(gameTask, calcQuestion);
 };
 
 export default brainCalc;
