@@ -7,21 +7,21 @@ const calcQuestion = () => {
     const actionsArr = ['+', '-', '*'];
     const randomAction = Math.floor(Math.random() * actionsArr.length)
     const randomCalc = actionsArr[randomAction];
-    const question = `${Num1} ${randomCalc} ${Num2}`;
+    const question = `${num1} ${randomCalc} ${num2}`;
     
     let result = 0;
 
     switch (randomCalc) {
         case '+':
-            result = Num1 + Num2;
+            result = num1 + num2;
             break;
 
         case '-':
-            result = Num1 - Num2;
+            result = num1 - num2;
             break;
 
         case '*':
-            result = Num1 * Num2;
+            result = num1 * num2;
             break;
          default:
             result = null;
