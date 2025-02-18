@@ -6,7 +6,7 @@ const getRandomNumber = (...args) => {
     if (range === undefined) {
       return 0; 
     }
-    return Math.floor(Math.random() * range); /
+    return Math.floor(Math.random() * range); 
   } else { 
     const num1 = args[0];
     const num2 = args[1];
