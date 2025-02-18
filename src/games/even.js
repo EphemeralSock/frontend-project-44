@@ -1,4 +1,4 @@
-import gameLogic from  '../index.js'
+import runGame from  '../index.js'
 
 const getRandomNumber = (range) => Math.floor(Math.random() * range);
 
@@ -12,7 +12,7 @@ const getKindOfNumber = (num) => {
 
 const brainEven = () => {
     const gameTask = 'Answer "yes" if the number is even, otherwise answer "no"'
-    gameLogic(gameTask, getKindOfNumber);
+    runGame(gameTask, getKindOfNumber);
 };
 
 export default brainEven;
