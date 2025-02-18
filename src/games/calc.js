@@ -3,8 +3,8 @@ import gameLogic from  '../index.js'
 const getRandomNumber = (range) => Math.floor(Math.random() * range);
 
 const calcQuestion = () => {
-    const Num1 = getRandomNumber(50);
-    const Num2 = getRandomNumber(50);
+    const num1 = getRandomNumber(50);
+    const num2 = getRandomNumber(50);
     const actionsArr = ['+', '-', '*'];
     const randomAction = Math.floor(Math.random() * actionsArr.length)
     const randomCalc = actionsArr[randomAction];
