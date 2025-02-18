@@ -1,6 +1,5 @@
 import runGame from  '../index.js'
-
-const getRandomNumber = (range) => Math.floor(Math.random() * range);
+import getRandomNumber from '../random_number.js'
 
 const gcd = () => {
 let num1 = getRandomNumber(20);
