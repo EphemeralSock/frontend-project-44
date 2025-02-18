@@ -10,8 +10,8 @@ const runGame = (gameTask, output) => {
    
     console.log(gameTask);
    
-    const numOfQuestions = 3;
-    for (let i = 0; i < numOfQuestions; i += 1) {
+    const roundCount = 3;
+    for (let i = 0; i < roundCount; i += 1) {
         const answArr = output();
        
         console.log(`Question: ${answArr[0]}`);
