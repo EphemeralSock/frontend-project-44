@@ -4,7 +4,7 @@
 <a href="https://codeclimate.com/github/EphemeralSock/frontend-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/0a7520892f38183dfa80/maintainability" /></a>
 
 
-### Console Games Collection
+### Brain Games 
 Welcome to the Console Games Collection! This repository contains a set of engaging and educational console games that you can play directly in your terminal. Each game is three rounds, and designed to challenge your logic, math skills, and problem-solving abilities. Below is a brief description of each game included in this collection. 
 
 ### Games Overview 
