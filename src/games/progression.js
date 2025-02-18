@@ -1,13 +1,6 @@
 import runGame from  '../index.js'
+import getRandomNumber from '../random_number.js'
 
-
-
-const getRandomNumber = (num1, num2 = 0) => {
-    const min = Math.min(num1, num2);
-    const max = Math.max(num1, num2);
-    return min + Math.floor(Math.random() * (max - min));
-  };
-  
   const getProgression = (start, iter, length) => {
     const progression = [];
     for (let i = 0; i < length; i += 1) {
