@@ -1,6 +1,6 @@
 import runGame from  '../index.js'
+import getRandomNumber from '../random_number.js'
 
-const getRandomNumber = (range) => Math.floor(Math.random() * range);
 
 const getKindOfNumber = (num) => {
     const maxNum = getRandomNumber(1000);
