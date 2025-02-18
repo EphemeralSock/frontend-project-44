@@ -33,4 +33,4 @@ const runGame = (gameTask, output) => {
   console.log(`Congratulations, ${userName}!`);
 };
 
-export default gameLogic;
+export default runGame;
