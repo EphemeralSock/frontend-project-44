@@ -14,12 +14,16 @@ Test your ability to determine whether a given number is even or odd.
    
 ### 2. Calculator
 This game allows you to perform basic calculations (addition, subtraction, multiplication, and division) and challenges you to solve problems under time pressure. 
-
+[![asciicast](https://asciinema.org/a/x6I1KH1LmEQcrxjzuk0E6zP1y.svg)](https://asciinema.org/a/x6I1KH1LmEQcrxjzuk0E6zP1y)
+    
 ### 3. GCD (Greatest Common Divisor)
-Challenge yourself with the task of finding the greatest common divisor of two numbers. The game will present you with pairs of numbers, and you need to calculate their GCD to win points. 
-
+Challenge yourself with the task of finding the greatest common divisor of two numbers. The game will present you with pairs of numbers, and you need to calculate their GCD to win rounds. 
+[![asciicast](https://asciinema.org/a/CIrIi6Cjld2pAkFjPUEpbOJKt.svg)](https://asciinema.org/a/CIrIi6Cjld2pAkFjPUEpbOJKt)
+https://asciinema.org/a/CIrIi6Cjld2pAkFjPUEpbOJKt
 ### 4. Is It Prime?
 In this game, you will be given various numbers, and you must determine whether each number is prime or not. 
+[![asciicast](.svg)]()
 
 ### 5. Arithmetic Progression
 This game will present you with a sequence of numbers, and your task is to identify the missing number in the series.
+[![asciicast](.svg)]()
