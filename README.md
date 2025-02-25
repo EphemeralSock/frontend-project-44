@@ -10,7 +10,7 @@ Welcome to the Brain Games Collection! This repository contains a set of engagin
 ### Games Overview 
 ### 1. Even or Odd
 Test your ability to determine whether a given number is even or odd. 
-[![asciicast]( https://asciinema.org/a/6V6J2hvMFojCQp2r6c86ZeVXK.svg)]( https://asciinema.org/a/6V6J2hvMFojCQp2r6c86ZeVXK)
+[![asciicast](https://asciinema.org/a/pJXt2P05QEzZGfxfFheLR2W5v.svg)](https://asciinema.org/a/pJXt2P05QEzZGfxfFheLR2W5v)
    
 ### 2. Calculator
 This game allows you to perform basic calculations (addition, subtraction, multiplication, and division) and challenges you to solve problems under time pressure. 
