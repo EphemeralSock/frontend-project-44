@@ -22,8 +22,8 @@ Challenge yourself with the task of finding the greatest common divisor of two n
 https://asciinema.org/a/CIrIi6Cjld2pAkFjPUEpbOJKt
 ### 4. Is It Prime?
 In this game, you will be given various numbers, and you must determine whether each number is prime or not. 
-[![asciicast](.svg)]()
+[![asciicast](https://asciinema.org/a/xln8I2xzuPT4TeMAbBeUTaneR.svg)](https://asciinema.org/a/xln8I2xzuPT4TeMAbBeUTaneR)
 
 ### 5. Arithmetic Progression
 This game will present you with a sequence of numbers, and your task is to identify the missing number in the series.
-[![asciicast](.svg)]()
+[![asciicast]( https://asciinema.org/a/LXSb1GsGE7As7RWavra86PlRc.svg)]( https://asciinema.org/a/LXSb1GsGE7As7RWavra86PlRc)
