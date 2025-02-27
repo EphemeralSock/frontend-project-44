@@ -18,7 +18,7 @@ const calcQuestion = () => {
     const num1 = getRandomNumber(50);
     const num2 = getRandomNumber(50);
     const actionsArr = ['+', '-', '*'];
-    const randomAction = Math.floor(Math.random() * actionsArr.length);
+    const randomAction = getRandomNumber(actionsArr.length - 1);
     const randomCalc = actionsArr[randomAction];
     const question = `${num1} ${randomCalc} ${num2}`;
     
