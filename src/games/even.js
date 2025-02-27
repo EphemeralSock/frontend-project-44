@@ -3,16 +3,17 @@ import getRandomNumber from '../random_number.js';
 
 const isEven = (num) => num % 2 === 0;
 
-const getKindOfNumber = () => {
+const getEvennessQuestion = () => {
     const maxNum = getRandomNumber(1000);
     const question = `${maxNum}`;
-    const result = (isEven(maxNum) ? 'yes' : 'no');
-    return [question, result];
+    const isEvenResult = (isEven(maxNum) ? 'yes' : 'no');
+    return [question, isEvenResult];
 };
 
 const brainEven = () => {
     const gameTask = 'Answer "yes" if the number is even, otherwise answer "no"';
-    runGame(gameTask, getKindOfNumber);
+    runGame(gameTask, getEvennessQuestion);
 };
 
 export default brainEven;
+
