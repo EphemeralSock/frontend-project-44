@@ -1,37 +1,33 @@
 import runGame from  '../index.js'
 import getRandomNumber from '../random_number.js'
 
+const calculateExpression = (num1, num2, operation) => {
+    switch (operation) {
+        case '+':
+            return num1 + num2;
+        case '-':
+            return num1 - num2;
+        case '*':
+            return num1 * num2;
+        default:
+            throw new Error('Unsupported operation'); 
+    }
+};
+
 const calcQuestion = () => {
     const num1 = getRandomNumber(50);
     const num2 = getRandomNumber(50);
     const actionsArr = ['+', '-', '*'];
-    const randomAction = Math.floor(Math.random() * actionsArr.length)
+    const randomAction = Math.floor(Math.random() * actionsArr.length);
     const randomCalc = actionsArr[randomAction];
     const question = `${num1} ${randomCalc} ${num2}`;
     
-    let result = 0;
-
-    switch (randomCalc) {
-        case '+':
-            result = num1 + num2;
-            break;
-
-        case '-':
-            result = num1 - num2;
-            break;
-
-        case '*':
-            result = num1 * num2;
-            break;
-         default:
-            result = null;
-    };
-     result = result.toString();
-    return [question, result];
+    const result = calculateExpression(num1, num2, randomCalc); 
+    return [question, result.toString()];
 };
 
 const brainCalc = () => {
-    const gameTask = 'What is the result of the expression?'
+    const gameTask = 'What is the result of the expression?';
     runGame(gameTask, calcQuestion);
 };
 
