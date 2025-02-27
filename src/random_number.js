@@ -1,8 +1,14 @@
 const getRandomNumber = (min = 0, max) => {
-  if (min === undefined) {
-    return Math.floor(Math.random() * max); // Если max не задан, генерируем число от 0 до max
+  if (max === undefined) {
+    max = min; 
+    min = 0; 
   }
-  return Math.floor(Math.random() * (Math.max(min, max) - Math.min(min, max))) + Math.min(min, max);
+
+  if (min > max) {
+    [min, max] = [max, min];
+  }
+
+  return Math.floor(Math.random() * (max - min)) + min;
 };
 
 export default getRandomNumber;
