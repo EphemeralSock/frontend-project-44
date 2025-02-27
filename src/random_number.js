@@ -1,4 +1,4 @@
-const getRandomNumber = (...args) => {
+const getRandomNumber = (args) => {
   if (args.length === 0) {
     return 0; 
   } else if (args.length === 1) { 
