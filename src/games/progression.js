@@ -27,7 +27,7 @@ import getRandomNumber from '../random_number.js'
   };
 
 const brainProgression = () => {
-    const gameTask = 'What is the result of the expression?'
+    const gameTask = 'What number is missing in the progression?'
     runGame(gameTask, progGame);
 };
 
