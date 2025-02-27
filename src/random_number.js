@@ -1,19 +1,8 @@
-const getRandomNumber = (args) => {
-  if (args.length === 0) {
-    return 0; 
-  } else if (args.length === 1) { 
-    const range = args[0]; 
-    if (range === undefined) {
-      return 0; 
-    }
-    return Math.floor(Math.random() * range); 
-  } else { 
-    const num1 = args[0];
-    const num2 = args[1];
-    const min = Math.min(num1, num2);
-    const max = Math.max(num1, num2);
-    return min + Math.floor(Math.random() * (max - min)); 
+const getRandomNumber = (min = 0, max) => {
+  if (min === undefined) {
+    return Math.floor(Math.random() * max); // Если max не задан, генерируем число от 0 до max
   }
+  return Math.floor(Math.random() * (Math.max(min, max) - Math.min(min, max))) + Math.min(min, max);
 };
 
 export default getRandomNumber;
