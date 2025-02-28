@@ -10,4 +10,3 @@ const getRandomNumber = (min, max) => {
 };
 
 export default getRandomNumber;
-
