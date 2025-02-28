@@ -1,7 +1,7 @@
-const getRandomNumber = (min, max = 0) => {
+const getRandomNumber = (min, max) => {
   if (max === undefined) {
-    max = min; 
-    min = 0; 
+    max = min;
+    min = 0;
   }
 
   if (min > max) {

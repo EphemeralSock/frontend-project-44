@@ -17,7 +17,7 @@ const runGame = (gameTask, generateQuestion) => {
 
     console.log(`Question: ${questionData[0]}`);
 
-    const answerUser  = readlineSync.question('Your answer: ');
+    const answerUser = readlineSync.question('Your answer: ');
 
     const correctAnswer = questionData[1];
 
