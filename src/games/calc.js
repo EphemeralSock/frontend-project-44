@@ -12,7 +12,7 @@ const calculateExpression = (num1, num2, operation) => {
     case '*':
       return num1 * num2;
     default:
-      throw new Error('Unsupported operation'); 
+      throw new Error('Unsupported operation');
   }
 };
 
@@ -24,7 +24,7 @@ const calcQuestion = () => {
   const randomCalc = actionsArr[randomAction];
   const question = `${num1} ${randomCalc} ${num2}`;
 
-  const result = calculateExpression(num1, num2, randomCalc); 
+  const result = calculateExpression(num1, num2, randomCalc);
   return [question, result.toString()];
 };
 
