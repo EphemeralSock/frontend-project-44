@@ -7,13 +7,13 @@ const gcd = () => {
   let num1 = getRandomNumber(20);
   let num2 = getRandomNumber(20);
   const question = `${num1} ${num2}`;
-  
+
   while (num2) {
     const temp = num2;
     num2 = num1 % num2;
     num1 = temp;
   }
-  
+
   num1 = num1.toString();
   return [question, num1];
 };

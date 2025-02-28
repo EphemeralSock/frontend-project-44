@@ -21,10 +21,10 @@ const runGame = (gameTask, generateQuestion) => {
 
     const correctAnswer = questionData[1];
 
-    if (answerUser  === correctAnswer) {
+    if (answerUser === correctAnswer) {
       console.log('Correct!');
     } else {
-      console.log(`"${answerUser }" is wrong answer ;(. Correct answer was "${correctAnswer}". \nLet's try again, ${userName}!`);
+      console.log(`"${answerUser}" is wrong answer ;(. Correct answer was "${correctAnswer}". \nLet's try again, ${userName}!`);
       return;
     }
   }

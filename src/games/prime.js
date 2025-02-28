@@ -9,10 +9,10 @@ const isPrime = (num) => {
   }
   for (let i = 2; i < num; i += 1) {
     if (num % i === 0) {
-      return false; 
+      return false;
     }
   }
-  return true; 
+  return true;
 };
 
 const primeAnswer = () => {
@@ -23,7 +23,7 @@ const primeAnswer = () => {
 };
 
 const brainPrime = () => {
-  const gameTask = 'Answer "yes" if given number is prime. Otherwise answer "no".'; 
+  const gameTask = 'Answer "yes" if given number is prime. Otherwise answer "no".';
   runGame(gameTask, primeAnswer);
 };
 
