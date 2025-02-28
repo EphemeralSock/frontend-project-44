@@ -1,4 +1,4 @@
-const getRandomNumber = (min = 0, max) => {
+const getRandomNumber = (min, max = 0) => {
   if (max === undefined) {
     max = min; 
     min = 0; 
