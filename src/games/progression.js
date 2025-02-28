@@ -17,7 +17,8 @@ const progGame = () => {
   const sequenceLength = getRandomNumber(5, 10);
 
   const items = getProgression(startValue, step, sequenceLength);
-  const questionPosition = getRandomNumber(sequenceLength);
+  
+  const questionPosition = getRandomNumber(0, items.length - 1);
 
   const hiddenItem = items[questionPosition];
   items[questionPosition] = '..';
