@@ -1,14 +1,13 @@
 const getRandomNumber = (min, max) => {
-  if (max === undefined) {
-    max = min;
-    min = 0;
+  let effectiveMin = min;
+  let effectiveMax = max !== undefined ? max : min;
+
+  if (effectiveMin > effectiveMax) {
+    [effectiveMin, effectiveMax] = [effectiveMax, effectiveMin];
   }
 
-  if (min > max) {
-    [min, max] = [max, min];
-  }
-
-  return Math.floor(Math.random() * (max - min)) + min;
+  return Math.floor(Math.random() * (effectiveMax - effectiveMin)) + effectiveMin;
 };
 
 export default getRandomNumber;
+
