@@ -7,21 +7,18 @@ const getGcd = (num1, num2) => {
     num2 = num1 % num2;
     num1 = temp;
   }
-  return num1;
+  return num1.toString();
 };
 
-const num1 = getRandomNumber(20);
-const num2 = getRandomNumber(20);
-const question = `${num1} ${num2}`;
-const gcd = getGcd(num1, num2);
-
-  num1 = num1.toString();
-  return [question, num1];
+const generateQuestion = () => {
+  const num1 = getRandomNumber(20);
+  const num2 = getRandomNumber(20);
+  return [`${num1} ${num2}`, getGcd(num1, num2)];
 };
 
 const runBrainGcd = () => {
   const gameTask = 'Find the greatest common divisor of given numbers.';
-  runGame(gameTask, getGcd);
+  runGame(gameTask, generateQuestion);
 };
 
 export default runBrainGcd;
