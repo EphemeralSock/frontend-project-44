@@ -26,9 +26,9 @@ const calcQuestion = () => {
   return [question, result.toString()];
 };
 
-const brainCalc = () => {
+const runBrainCalc = () => {
   const gameTask = 'What is the result of the expression?';
   runGame(gameTask, calcQuestion);
 };
 
-export default brainCalc;
+export default runBrainCalc;
