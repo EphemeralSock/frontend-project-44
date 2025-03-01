@@ -10,7 +10,7 @@ const calculateExpression = (num1, num2, operation) => {
     case '*':
       return num1 * num2;
     default:
-      throw new Error('Unsupported operation');
+      throw new Error((`Unsupported operation: ${operation}. Received num1: ${num1}, num2: ${num2}`););
   }
 };
 
