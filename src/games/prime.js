@@ -20,9 +20,9 @@ const primeAnswer = () => {
   return [question, result];
 };
 
-const brainPrime = () => {
+const runBrainPrime = () => {
   const gameTask = 'Answer "yes" if given number is prime. Otherwise answer "no".';
   runGame(gameTask, primeAnswer);
 };
 
-export default brainPrime;
+export default runBrainPrime;
