@@ -29,7 +29,7 @@ const runProgGame = () => {
 
 const runBrainProgression = () => {
   const gameTask = 'What number is missing in the progression?';
-  runGame(gameTask, progGame);
+  runGame(gameTask, runProgGame);
 };
 
 export default runBrainProgression;
