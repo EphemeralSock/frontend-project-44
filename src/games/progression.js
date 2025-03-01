@@ -9,7 +9,7 @@ const getProgression = (start, iter, length) => {
   return progression;
 };
 
-const progGame = () => {
+const runProgGame = () => {
   const startValue = getRandomNumber(10);
   const step = getRandomNumber(1, 10);
   const sequenceLength = getRandomNumber(5, 10);
@@ -27,9 +27,9 @@ const progGame = () => {
   return [question, correctAnswer];
 };
 
-const brainProgression = () => {
+const runBrainProgression = () => {
   const gameTask = 'What number is missing in the progression?';
   runGame(gameTask, progGame);
 };
 
-export default brainProgression;
+export default runBrainProgression;
