@@ -10,7 +10,7 @@ const getGcd = (initialNum1, initialNum2) => {
     num2 = num1 % num2;
     num1 = temp;
   }
-  
+
   return num1.toString();
 };
 
