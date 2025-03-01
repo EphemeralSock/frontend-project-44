@@ -27,4 +27,4 @@ In this game, you will be given various numbers, and you must determine whether 
 
 ### 5. Arithmetic Progression
 This game will present you with a sequence of numbers, and your task is to identify the missing number in the series.
-[![asciicast]( https://asciinema.org/a/LXSb1GsGE7As7RWavra86PlRc.svg)]( https://asciinema.org/a/LXSb1GsGE7As7RWavra86PlRc)
+[![asciicast](https://asciinema.org/a/LXSb1GsGE7As7RWavra86PlRc.svg)](https://asciinema.org/a/LXSb1GsGE7As7RWavra86PlRc)
